@@ -1,3 +1,4 @@
+#!/bin/bash
 dir=$HOME/.local/share/themes/Adwaita-Roboto
 
 if [[ ! -e $dir ]]; then
