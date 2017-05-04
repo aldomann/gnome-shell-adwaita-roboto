@@ -1,5 +1,5 @@
 # GNOME Shell Adwaita Roboto Theme
-GNOME Shell default theme using Roboto instead of Cantarell.
+GNOME Shell default theme using Roboto instead of Cantarell. The theme works on GNOME Shell 3.24 (older versions are not supported and probably won't work as intended).
 
 | Screenshot | GNOME Shell Theme |
 |------------|-------------------|
