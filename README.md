@@ -15,4 +15,4 @@ GNOME Shell default theme using Roboto instead of Cantarell.
 
 ## License
 GNOME Shell is distributed under the terms of the GNU General Public License,
-version 2 or later. See the COPYING file for details.
+version 2 or later. See the LICENSE file for details.
