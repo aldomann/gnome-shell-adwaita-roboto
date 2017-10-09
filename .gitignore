@@ -1,0 +1,5 @@
+theme/*.scss
+theme/gnome-shell-sass
+theme/HACKING
+theme/meson.build
+theme/parse-sass.sh
