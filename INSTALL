@@ -1,6 +1,9 @@
 #!/bin/bash
 dir=$HOME/.local/share/themes/Adwaita-Roboto
 
+if [[ -e $dir ]]; then
+	rm -rf $dir
+fi
 if [[ ! -e $dir ]]; then
 	mkdir $dir
 fi
