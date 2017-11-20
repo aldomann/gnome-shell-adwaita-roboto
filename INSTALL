@@ -1,13 +1,13 @@
 #!/bin/bash
-dir=$HOME/.local/share/themes/Adwaita-Roboto
+dir="$HOME/.local/share/themes/Adwaita-Roboto"
 
-if [[ -e $dir ]]; then
-	rm -rf $dir
+if [[ -e "$dir" ]]; then
+	rm -rf "$dir"
 fi
-if [[ ! -e $dir ]]; then
-	mkdir $dir
+if [[ ! -e "$dir" ]]; then
+	mkdir "$dir"
 fi
 
-cp -R theme $dir/gnome-shell
+cp -R theme "$dir/gnome-shell"
 
 dconf write /org/gnome/shell/extensions/user-theme/name "'Adwaita-Roboto'"
